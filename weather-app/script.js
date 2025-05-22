@@ -23,27 +23,27 @@ async function checkWhether(city)
 
     if(data.weather[0].main == "Clear")
         {
-            weatherIcon.src="images/images/clear.png"
+            weatherIcon.src="images/clear.png"
         }
     else if(data.weather[0].main == "Clouds")
         {
-            weatherIcon.src="images/images/clouds.png"
+            weatherIcon.src="images/clouds.png"
         }
     else if(data.weather[0].main == "drizzle")
         {
-            weatherIcon.src="images/images/drizzle.png"
+            weatherIcon.src="images/drizzle.png"
         }
     else if(data.weather[0].main == "mist")
         {
-            weatherIcon.src="images/images/mist.png"
+            weatherIcon.src="images/mist.png"
         }
     else if(data.weather[0].main == "rain")
         {
-            weatherIcon.src="images/images/rain.png"
+            weatherIcon.src="images/rain.png"
         }
     else if(data.weather[0].main == "snow")
         {
-            weatherIcon.src="images/images/snow.png"
+            weatherIcon.src="images/snow.png"
         }
     document.querySelector('.weather').style.display = "block"
 }
